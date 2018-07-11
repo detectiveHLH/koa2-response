@@ -1,0 +1,24 @@
+{
+  "name": "koa2-response",
+  "version": "1.0.0",
+  "description": "A middleware which can let you send your response easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detectiveHLH/koa2-response.git"
+  },
+  "keywords": [
+    "koa",
+    "response",
+    "middleware"
+  ],
+  "author": "detectiveHLH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/detectiveHLH/koa2-response/issues"
+  },
+  "homepage": "https://github.com/detectiveHLH/koa2-response#readme"
+}
