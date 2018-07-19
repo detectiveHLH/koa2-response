@@ -9,12 +9,12 @@ const code = {
 
 router
   .get('/', (ctx, next) => {
-    response.success(ctx, {
+    response.success({
       name: 'test'
     })
   })
   .get('/error_test', (ctx, next) => {
-    response.error(ctx, code.UNKNOWN_ERROR);
+    response.error(code.UNKNOWN_ERROR);
   })
 
 app.use(router.routes());
