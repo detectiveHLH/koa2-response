@@ -1,8 +1,7 @@
 const koa = require('koa');
 const router = require('koa-router')();
 const app = new koa();
-const response = require('./index.js');
-
+const response = require('./index');
 
 const code = {
   UNKNOWN_ERROR: [1, 'Sorry, you seem to have encountered some unknown errors.']
