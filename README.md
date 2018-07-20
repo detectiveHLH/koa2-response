@@ -21,12 +21,12 @@ const code = {
 
 router
   .get('/', (ctx, next) => {
-    ctx.success(ctx, {
+    ctx.success({
       name: 'test'
     })
   })
   .get('/error_test', (ctx, next) => {
-     ctx.error(ctx, code.UNKNOWN_ERROR);
+     ctx.error(code.UNKNOWN_ERROR);
   })
 
 app.use(router.routes());
