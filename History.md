@@ -1,3 +1,7 @@
+2.0.0/2018-07-20
+=
+* Change the way you call the api
+
 1.1.1/2018-07-11
 =
 * Change the success return from 0 to param code
