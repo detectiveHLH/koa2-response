@@ -19,6 +19,8 @@ const code = {
   UNKNOWN_ERROR: [1, 'Sorry, you seem to have encountered some unknown errors.']
 }
 
+app.use(response);
+
 router
   .get('/', (ctx, next) => {
     ctx.success({
