@@ -18,7 +18,7 @@ const response = require('koa2-response');
 // Defining error code map
 const code = {
   UNKNOWN_ERROR: [1, 'Sorry, you seem to have encountered some unknown errors.']
-}
+};
 
 // Use this middleware
 app.use(response);
@@ -33,6 +33,9 @@ router
   .get('/error_test', (ctx, next) => {
      ctx.error(code.UNKNOWN_ERROR);
   })
+  .get('/throw', (ctx, next) => {
+    ctx.throw(500, 'Internal Server Error');
+  });
 
 app.use(router.routes());
 app.use(router.allowedMethods());
