@@ -1,6 +1,6 @@
 {
   "name": "koa2-response",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A middleware which can let you send your response easier",
   "main": "index.js",
   "scripts": {
